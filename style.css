@@ -1,0 +1,201 @@
+
+#principal{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#numeroF{
+    height: 10vh;
+    width: 32vw;
+    background-color: rgb(130, 141, 99);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+#Unumeros{
+    margin-top: 1%;
+    height: 25vh;
+    width: 69vw;
+    background-color: rgb(69, 195, 195);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+#play{
+    height: 10vh;
+    width: 20vw;
+    background-color: rgb(26, 26, 206);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.numeros{
+    height: 10vh;
+    width: 20vw;
+    background-color: azure;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+#result{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#numeroS{
+    height: 10vh;
+    width: 31vw;
+    background-color: rgb(86, 65, 201);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+#cd{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#puntos{
+    height: 20vh;
+    width: 50vw;
+    background-color: rgb(76, 108, 109);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+#partidas{
+    
+    height: 10vh;
+    width: 59vw;
+    background-color: rgb(37, 102, 187);
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and ( min-width: 600px){
+    body{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #principal{
+        margin-top: 9%;
+        height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    #numeroF{
+        height: 10vh;
+        width: 11vw;
+        background-color: rgb(130, 141, 99);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #Unumeros{
+        height: 15vh;
+        width: 59vw;
+        background-color: rgb(69, 195, 195);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #play{
+        height: 10vh;
+        width: 10vw;
+        background-color: rgb(26, 26, 206);
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .numeros{
+        height: 10vh;
+        width: 10vw;
+        background-color: azure;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #result{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #numeroS{
+        height: 10vh;
+        width: 11vw;
+        background-color: rgb(86, 65, 201);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #cd{
+        height: 40px;
+        width: 80px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #puntos{
+        height: 15vh;
+        width: 39vw;
+        background-color: rgb(76, 108, 109);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    
+    }
+    #partidas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        width: 50vw;
+        background-color: rgb(37, 102, 187);
+        border-radius: 10px;
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #212121;">
+    <div id="principal">
+        <div id="cd"><h1 id="cronometro">03:00</h1></div>
+        <div id="result">
+            <div id="numeroF">
+                <h1 id="nf">?</h1>
+            </div>
+            <div id="numeroS">
+                <h1 id="ns">0</h1>
+            </div>
+        </div>
+        <div id="puntos">
+            <h3 id="record1">Record: 0 puntos</h3>
+            <h3 id="pActual">Puntuaje: 0 puntos</h3>
+        </div>
+    
+        <div id="Unumeros">
+            <div class="numeros" onclick="opcion1()" ><h1 id="n1">?</h1></div>
+            <div class="numeros" onclick="opcion2()"><h1 id="n2">?</h1></div>
+            <div class="numeros" onclick="opcion3()"><h1 id="n3">?</h1></div>
+            <div class="numeros" onclick="opcion4()"><h1 id="n4">?</h1></div>
+            <div class="numeros" onclick="opcion5()"><h1 id="n5">?</h1></div>
+        </div>
+        <div id="play" onclick="play()"><img src="play.png" alt="play" height="50px" width="50px" id="imagen"></div>
+        <div id="partidas">
+            <h3 id="pJugadas">Jugadas: 0</h3>
+            <h3 id="pGanadas">Ganadas: 0</h3>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
